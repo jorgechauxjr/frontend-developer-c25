@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: green;
+        }
+        div > div {
+            background: plum;
+        }
+        .good {
+            background: red;
+        }
+        div + section {
+            background: blue;
+        }
+        div ~p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Hola</p>
+        <p>Buenos</p>
+        <p>Días</p>
+    </div> -->
+    <div>
+        <div>
+            <p>Hola</p>
+            <div class="good">Buenos</div>
+        </div>
+    </div>
+    <p>General brothers</p>
+    <p>General brothers</p>
+    <section>
+        The best!
+    </section>
+    <div>
+        Dias!
+    </div>
+    
+</body>
+</html>
